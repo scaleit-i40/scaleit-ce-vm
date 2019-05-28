@@ -9,6 +9,12 @@
 	<img src="https://img.shields.io/github/downloads/scaleit-i40/scaleit-ce-vm/total.svg" />
 	<img src="https://img.shields.io/github/license/scaleit-i40/scaleit-ce-vm.svg" />
 </p>
+<p align="center">
+	<img src="https://img.shields.io/github/followers/scaleit-i40.svg?style=social" />
+	<img src="https://img.shields.io/github/forks/scaleit-i40/scaleit-ce-vm.svg?style=social" />
+	<img src="https://img.shields.io/github/stars/scaleit-i40/scaleit-ce-vm.svg?style=social" />
+	<img src="https://img.shields.io/github/watchers/scaleit-i40/scaleit-ce-vm.svg?style=social" />
+</p>
 
 ScaleIT Community Edition Plattform für VirtualBox
 
