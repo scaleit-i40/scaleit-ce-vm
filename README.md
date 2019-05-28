@@ -6,8 +6,6 @@
 	<img src="https://img.shields.io/website/https/scaleit-i40.de.svg" />
 	<img src="https://img.shields.io/github/repo-size/scaleit-i40/scaleit-ce-vm.svg" />
 	<img src="https://img.shields.io/github/languages/top/scaleit-i40/scaleit-ce-vm.svg" />
-	<img src="https://img.shields.io/github/downloads/scaleit-i40/scaleit-ce-vm/total.svg" />
-	<img src="https://img.shields.io/github/license/scaleit-i40/scaleit-ce-vm.svg" />
 </p>
 <p align="center">
 	<img src="https://img.shields.io/github/followers/scaleit-i40.svg?style=social" />
