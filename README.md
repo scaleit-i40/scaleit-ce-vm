@@ -57,6 +57,15 @@ Der NodeRED Flow kann verändert werden mit dem NodeRED Editor unter
 
     http://10.0.3.30:51530
     
+| ScaleIT App LaunchPad: App-Übersicht  |  ScaleIT App Digital Twin Simulator |
+:-------------------------:|:-------------------------:
+![](images/screenshot-10.0.3.30-51515-2019.05.28-09-45-52.png)  |  ![](images/screenshot-10.0.3.30-51556-2019.05.28-09-51-53.png)
+
+| ScaleIT App NodeRED: Dashboard  |  ScaleIT App NodeRED: Flow-Editor |
+:-------------------------:|:-------------------------:
+![](images/screenshot-10.0.3.30-51530-2019.05.28-09-47-09.png)  |  ![](images/screenshot-10.0.3.30-51530-2019.05.28-09-51-11.png)
+
+
 ## Start von ScaleIT als Administrator
 
 Der ScaleIT Administrator kann neue Apps installieren, Apps konfigurieren und wieder löschen.
@@ -72,6 +81,10 @@ Grundlegende Administrationsaufgaben:
 Im Menü "Stapel >> Benutzer" werden installierten die ScaleIT Apps angezeigt.
 
 Im Menü "Stapel >> Infrastruktur" werden die systemseitigen Dienste angezeigt. Diese müssen immer "active" (grün) sein!
+
+| ScaleIT Administration mit Rancher: App-Katalog   | Rancher: Installierte und laufende Apps |
+:-------------------------:|:-------------------------:
+![](images/screenshot-10.0.3.30-8080-2019.05.28-09-50-05.png)  |  ![](images/screenshot-10.0.3.30-8080-2019.05.28-09-49-11.png)
 
 ### Installation einer neuen App
 
