@@ -1,5 +1,15 @@
 # ScaleIT CE VM
 
+<p align="center">
+	<img src="https://img.shields.io/github/issues/scaleit-i40/scaleit-ce-vm.svg" />
+	<img src="https://img.shields.io/github/last-commit/scaleit-i40/scaleit-ce-vm.svg" />
+	<img src="https://img.shields.io/website/https/scaleit-i40.de.svg" />
+	<img src="https://img.shields.io/github/repo-size/scaleit-i40/scaleit-ce-vm.svg" />
+	<img src="https://img.shields.io/github/languages/top/scaleit-i40/scaleit-ce-vm.svg" />
+	<img src="https://img.shields.io/github/downloads/scaleit-i40/scaleit-ce-vm/total.svg" />
+	<img src="https://img.shields.io/github/license/scaleit-i40/scaleit-ce-vm.svg" />
+</p>
+
 ScaleIT Community Edition Plattform für VirtualBox
 
 Mit ScaleIT CE VM kann eine ScaleIT Plattform ohne Entwicklerkenntnisse auf einem Windows-10-Rechner gestartet werden.
