@@ -38,7 +38,7 @@ Oracle VirtualBox ist Open Source und kann [hier](https://www.virtualbox.org/wik
 
     > install.bat 
 
-   Es wird ggf. mehrmals nach dem Einverständnis des Administrators gefragt, um die Netzwrerkadaprter für ScaleIT anzulegen. Dies bitte immer bestätigen.
+   Es wird ggf. mehrmals nach dem Einverständnis des Administrators gefragt, um die Netzwerkadapter für ScaleIT anzulegen. Dies bitte immer bestätigen.
 
    Es kann bis zu 10 Minuten dauern, bis das Virtualbox-Image und alle ScaleIT Services darin gestartet sind.
    
@@ -94,8 +94,7 @@ Im Menü "Stapel >> Infrastruktur" werden die systemseitigen Dienste angezeigt. 
 
 ## Details zum VirtualBox Image
 
-Die Virtuelle Maschine hat nach der Einrichtung
-folgende Netzwrerk-Konfiguration:
+Die Virtuelle Maschine hat nach der Einrichtung folgende Netzwerk-Konfiguration:
 
 Netzwerkadapter 1:
 
@@ -103,7 +102,7 @@ Netzwerkadapter 1:
 	IP von ScaleIT: 10.0.2.100
 	Subnetzmaske: 255.255.255.0
 	Die ScaleIT-IP-Adresse wird nach 
-	außen hin auf dies Computers maskiert.
+	außen hin auf die des Computers maskiert.
 
 Netzwerkadapter 2: 
 
