@@ -41,23 +41,56 @@ Oracle VirtualBox ist Open Source und kann [hier](https://www.virtualbox.org/wik
    Es wird ggf. mehrmals nach dem Einverständnis des Administrators gefragt, um die Netzwrerkadaprter für ScaleIT anzulegen. Dies bitte immer bestätigen.
 
    Es kann bis zu 10 Minuten dauern, bis das Virtualbox-Image und alle ScaleIT Services darin gestartet sind.
+   
+## Start von ScaleIT als Benutzer
 
-4. Start von ScaleIT im Browser auf dem Installations-PC:
+Die ScaleIT Ansicht für Benutzer kann im Browser auf dem Installations-PC aufgerufen werden:
 
     http://10.0.3.30
 
-Dann öffnet sich das LaunchPad und es stehen folgende
-ScaleIT Apps zur Verfügung:
+Dann öffnet sich das LaunchPad und es stehen folgende ScaleIT Apps zur Verfügung:
 
-* Digital Twin Simulator: Damit werden Messwerte zufällig
-  erzeugt und per MQTT als ScaleIT Message versendet
-* NodeRED: Die ScaleIT Messages werden empfangen und auf
-  einem Dashboard dargestellt.
+* Digital Twin Simulator: Damit werden Messwerte zufällig erzeugt und per MQTT als ScaleIT Message versendet
+* NodeRED: Die ScaleIT Messages werden empfangen und auf einem Dashboard dargestellt.
 
-Der NodeRED Flow kann verändert werden mit dem 
-NodeRED Editor unter
+Der NodeRED Flow kann verändert werden mit dem NodeRED Editor unter
 
     http://10.0.3.30:51530
+    
+## Start von ScaleIT als Administrator
+
+Der ScaleIT Administrator kann neue Apps installieren, Apps konfigurieren und wieder löschen.
+
+Die ScaleIT App Administration erfolgt mit dem Tool Rancher unter
+
+    http://10.0.3.30:8080
+    
+Grundlegende Administrationsaufgaben:
+
+### Ansicht der laufenden Apps
+
+Im Menü "Stapel >> Benutzer" werden installierten die ScaleIT Apps angezeigt.
+
+Im Menü "Stapel >> Infrastruktur" werden die systemseitigen Dienste angezeigt. Diese müssen immer "active" (grün) sein!
+
+### Installation einer neuen App
+
+1. Menü "Katalog": Es werden die Apps aus dem Community-Catalog und dem lokalen App-Pool angezeigt (dieser ist zunächst leer)
+1. Auswahl einer App mit "Detailansicht"
+1. Folgende Einstellungen sind bei der CE-Version wichtig:
+
+   * ScaleIT SSO-proxy benutzen? FALSCH
+   * Lizenzschlüssel? leer lassen
+   * Die TCP-Port-Angaben: unverändert lassen
+   * IP-Adresse dieser ScaleIT Instanz? 10.0.3.30
+   * IP-Adresse MQTT-Broker? 10.0.3.30
+  
+1. Installation beginnen mit "Starten": Die App-Installation kann je nach Internet-Geschwindigkeit mehrere Minuten dauern
+
+   Wenn eine App zweimal installiert wird und der Fehler "Validation failed in API: name is not unique" angezeigt wird, muss der "Name (für die URL)" geändert werden.
+   
+1. Aufruf der App mit dem angegebenen Port (meist der Container mit dem Name "-app") oder über das LaunchPad als Benutzer
+
 
 ## Details zum VirtualBox Image
 
