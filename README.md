@@ -103,6 +103,8 @@ Im Menü "Stapel >> Infrastruktur" werden die systemseitigen Dienste angezeigt. 
 
 ### Installation einer neuen App
 
+Die nachfolgenden Schritte können zum Beispiel mit der ScaleIT App Pacman ausprobiert werden.
+
 1. Menü "Katalog": Es werden die Apps aus dem Community-Catalog und dem lokalen App-Pool angezeigt (dieser ist zunächst leer)
 1. Auswahl einer App mit "Detailansicht"
 1. Folgende Einstellungen sind bei der CE-Version wichtig:
@@ -119,6 +121,11 @@ Im Menü "Stapel >> Infrastruktur" werden die systemseitigen Dienste angezeigt. 
    
 1. Aufruf der App mit dem angegebenen Port (meist der Container mit dem Name "-app") oder über das LaunchPad als Benutzer
 
+Nach Abschluss der ScaleIt App Pacman (alle Container sind grün und "Active") kann diese mit der Adresse
+
+    http://10.0.3.30:51505 
+   
+aufgerufen werden.
 
 ## Details zum VirtualBox Image
 
