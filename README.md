@@ -44,7 +44,7 @@ Oracle VirtualBox ist Open Source und kann [hier](https://www.virtualbox.org/wik
 
 ## Installation
 
-1. [Installationsskript herunterladen](https://share.ondics.de/index.php/s/nKtmAq3Kwrwgm9A) und in eigenes Verzeichnis speichern
+1. Das [Installationsskript](https://github.com/scaleit-i40/scaleit-ce-vm/blob/master/Install-ScaleIT-VM.bat) am besten [hier herunterladen](https://share.ondics.de/index.php/s/nKtmAq3Kwrwgm9A) und in eigenes Verzeichnis speichern
 
 2. [Virtualbox-Image herunterladen](https://share.ondics.de/index.php/s/wF8wd37nNj4TkcB) und in gleiches Verzeichnis speichern
 
