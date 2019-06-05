@@ -24,7 +24,9 @@ set machinename=%result:~23,-1%
 echo %machinename%
 
 "%installpath%" modifyvm "%machinename%" --nat-network1 "%natname%"
+"%installpath%" modifyvm "%machinename%" --nic1 natnetwork
 "%installpath%" modifyvm "%machinename%" --hostonlyadapter2 "%adaptername%"
+"%installpath%" modifyvm "%machinename%" --nic2 hostonly
 
 echo ----Erfolgreich eingerichtet----
 
