@@ -22,7 +22,7 @@ Der Aufruf der ScaleIT Apps ist nur vom Rechner, auf dem die Virtualbox Software
 * mind. 25 GB Festplattenspeicher
 * mind. 6 GB RAM
 * besser 2 als 1 Prozessor-Kern
-* Windows 10
+* Windows 10 (mit Administrator-Berechtigung)
 * Oracle VirtualBox 
 
 Oracle VirtualBox ist Open Source und kann [hier](https://www.virtualbox.org/wiki/Downloads) heruntergeladen werden. 
