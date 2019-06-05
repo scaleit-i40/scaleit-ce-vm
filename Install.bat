@@ -28,4 +28,4 @@ del /f .temp2.txt
 
 echo ----Einrichtung abgeschlossen----
 
-"%installpath%" startvm %machinename%
+"%installpath%" startvm "%machinename%"
