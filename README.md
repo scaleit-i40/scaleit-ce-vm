@@ -30,7 +30,7 @@ Oracle VirtualBox ist Open Source und kann [hier](https://www.virtualbox.org/wik
 
 ## Installation
 
-1. [Installationsskript herunterladen](https://github.com/scaleit-i40/scaleit-ce-vm/archive/master.zip) und in eigenes Verzeichnis auspacken
+1. [Installationsskript herunterladen](https://share.ondics.de/index.php/s/nKtmAq3Kwrwgm9A) und in eigenes Verzeichnis speichern
 
 2. [Virtualbox-Image herunterladen](https://share.ondics.de/index.php/s/wF8wd37nNj4TkcB) und in gleiches Verzeichnis speichern
 
@@ -38,7 +38,7 @@ Oracle VirtualBox ist Open Source und kann [hier](https://www.virtualbox.org/wik
 
     > install.bat 
 
-   Es wird ggf. mehrmals nach dem Einverständnis des Administrators gefragt, um die Netzwerkadapter für ScaleIT anzulegen. Dies bitte immer bestätigen.
+   Es wird dann mehrmals nach dem Einverständnis des Administrators gefragt, um die Netzwerkadapter für ScaleIT anzulegen. Dies bitte immer bestätigen.
 
    Es kann bis zu 10 Minuten dauern, bis das Virtualbox-Image und alle ScaleIT Services darin gestartet sind.
    
