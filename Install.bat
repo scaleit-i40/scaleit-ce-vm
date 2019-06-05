@@ -11,7 +11,7 @@ echo %adaptername%
 "%installpath%" hostonlyif ipconfig "%adaptername%" --ip 10.0.3.10 --netmask 255.255.255.0
 
 echo importieren...
-"%installpath%" import "ScaleIT-CE VM.ova" --vsys 0 --eula accept > .temp1.txt
+"%installpath%" import "ScaleIT-CE VM.ova" --vsys 0 --unit 10 --ignore --eula accept > .temp1.txt
 findstr "^[0-9]*.*Suggested\sVM name.*" .temp1.txt > .temp2.txt
 set /p result=<.temp2.txt
 set machinename=%result:~23,-1%
