@@ -1,3 +1,9 @@
+rem ***************************************
+rem *** ScaleIT I40 Installations-Skript
+rem *** 
+rem *** (C) 2019, Ondics GmbH
+rem ***************************************
+
 set installpath=C:\Program Files\Oracle\VirtualBox\VBoxManage.exe
 set natname=ScaleITNAT
 "%installpath%" natnetwork add --netname %natname% --network "10.0.2.0/24" --enable
