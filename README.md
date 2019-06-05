@@ -36,9 +36,9 @@ Oracle VirtualBox ist Open Source und kann [hier](https://www.virtualbox.org/wik
 
 3. Das Skript ausführen:
 
-    > install.bat 
+    > Install-Scaleit-VM.bat 
 
-   Es wird dann mehrmals nach dem Einverständnis des Administrators gefragt, um die Netzwerkadapter für ScaleIT anzulegen. Dies bitte immer bestätigen.
+   Es wird dann ggf. mehrmals nach dem Einverständnis des Administrators gefragt, um die Netzwerkadapter für ScaleIT anzulegen. Dies bitte immer bestätigen.
 
    Es kann bis zu 10 Minuten dauern, bis das Virtualbox-Image und alle ScaleIT Services darin gestartet sind.
    
