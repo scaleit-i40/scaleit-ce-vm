@@ -66,6 +66,7 @@ Dann öffnet sich das LaunchPad und es stehen folgende ScaleIT Apps zur Verfügu
 
 * Digital Twin Simulator: Damit werden Messwerte zufällig erzeugt und per MQTT als ScaleIT Message versendet
 * NodeRED: Die ScaleIT Messages werden empfangen und auf einem Dashboard dargestellt.
+* LaunchPad: Diese App ist schon offen. Kann aktuell ignoriert werden.
 
 Der NodeRED Flow kann verändert werden mit dem NodeRED Editor unter
 
