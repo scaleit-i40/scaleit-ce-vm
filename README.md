@@ -121,11 +121,17 @@ Die nachfolgenden Schritte können zum Beispiel mit der ScaleIT App Pacman auspr
    
 1. Aufruf der App mit dem angegebenen Port (meist der Container mit dem Name "-app") oder über das LaunchPad als Benutzer
 
-Nach Abschluss der ScaleIt App Pacman (alle Container sind grün und "Active") kann diese mit der Adresse
+Nach Abschluss der Installation der ScaleIT App Pacman (alle Container sind grün und "Active") kann diese mit der Adresse
 
     http://10.0.3.30:51505 
    
 aufgerufen werden.
+
+Wenn das ScaleIT Abenteuer zu einem späteren Zeitpunkt fortgesetzt werden soll, 
+muss die VirtualBox Maschine gesichert werden 
+(Menü Datei >> Schließen >> "den Zustand der virtuellen Maschine speichern").
+
+Zum nächsten Start reicht ein Doppelklick in VirtualBox auf das "Scale-CE-VM"-Image.
 
 ## Details zum VirtualBox Image
 
