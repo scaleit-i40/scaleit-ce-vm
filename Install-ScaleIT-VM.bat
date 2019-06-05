@@ -23,8 +23,8 @@ set /p result=<.temp2.txt
 set machinename=%result:~23,-1%
 echo %machinename%
 
-"%installpath%" modifyvm %machinename% --nat-network1 "%natname%"
-"%installpath%" modifyvm %machinename% --hostonlyadapter2 "%adaptername%"
+"%installpath%" modifyvm "%machinename%" --nat-network1 "%natname%"
+"%installpath%" modifyvm "%machinename%" --hostonlyadapter2 "%adaptername%"
 
 echo ----Erfolgreich eingerichtet----
 
