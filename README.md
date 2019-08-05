@@ -152,6 +152,11 @@ Netzwerkadapter 2:
 	IP des Computers: 10.0.3.10
 	Subnetzmaske: 255.255.255.0
 	
+Lokaler App-Pool:
+
+* GIT-Server: Port 3000, scaleit/scaleit
+* Docker Registry V2: Port 5000, admin/admin
+	
 ## Deinstallation
 
 Zur Deinstallation sind folgende Schritte durchzuführen:
