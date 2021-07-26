@@ -121,7 +121,7 @@ Die nachfolgenden Schritte können zum Beispiel mit der ScaleIT App Pacman auspr
    
 1. Aufruf der App mit dem angegebenen Port (meist der Container mit dem Name "-app") oder über das LaunchPad als Benutzer
 
-Nach Abschluss der Installation der ScaleIT App Pacman (alle Container sind grün und "Active") kann diese mit der Adresse
+Nach Abschluss der Installation der ScaleIT-App Pacman (alle Container sind grün und "Active") kann diese mit der Adresse
 
     http://10.0.3.30:51505 
    
@@ -162,29 +162,29 @@ Lokaler App-Pool:
 Zur Deinstallation sind folgende Schritte durchzuführen:
 
 * In Virtualbox muss das Image gelöscht werden
-* In Virtualbox muss das Host-only-Netzwerk gelöscht werden (im Menü Datei >>  Host-only Netzwerk Manager)
-* Installations Dateien auf Festplatte löschen
+* In Virtualbox muss das Host-only-Netzwerk gelöscht werden (Menü Datei >>  Host-only Netzwerk Manager)
+* Installations-Dateien auf der Festplatte löschen
 
 ## Produktiver Einsatz
 
-In diesem VM-Image ist die kostenfreie ScaleIT Core CE (Community Edition) installiert. 
-Eine Nutzung im produktiven Betrieb wird nicht empfohlen. 
+In diesem VM-Image ist die kostenfreie ScaleIT Core Community Edition (CE-Version) installiert. 
+Eine Nutzung im produktiven Betrieb wird nicht empfohlen oder unterstützt. 
 Hierzu ist die ScaleIT Core EE (Enterprise Edition) verfügbar.
 
-Ein paar Unterschiede zur ScaleIT Core Enterprise Edition sind 
+Ein paar Unterschiede zur ScaleIT Core Enterprise Edition (EE-Version) sind 
 
-* Die CE-Version basiert auf Ports. DIe EE-Version ist in das DNS-System des Unternehmens 
+* Die CE-Version basiert auf Ports. Die EE-Version ist in das DNS-System des Unternehmens 
   integriert, die Apps können per Namen angesprochen werden. Spezielle Port-Freigaben in 
   Firewalls sind in der EE-Version nicht erforderlich.
-* In der EE-Version werden die Apps mit SSO-Feature über einer einheitliche Login-Maske und
-  einheitlichen Login-Daten geschützt werden. Es gibt in der EE-Version eine zentrale Benutzerverwaltung
-* Die EE-Version verfügt über eine Reboot/Herunterfahren-Funktion und ist auf die 
-  kontrollierte Abschaltung und den Wiederanlauf der Docker-System optimiert
+* In der EE-Version werden die Apps mit dem sog. "SSO-Feature" über einer einheitliche Login-Maske und
+  einheitliche Login-Daten geschützt. Es gibt in der EE-Version eine zentrale Benutzerverwaltung.
+* Die EE-Version verfügt über eine Reboot/Herunterfahren-Funktion und ist für eine 
+  kontrollierte Abschaltung und den korrekten Wiederanlauf des Docker-Systems ausgelegt.
 * Mit der EE-Version hat der Administrator Zugang zum ScaleIT Enterprise App-Pool mit zahlreichen 
-  weiteren Apps
+  weiteren Apps.
 * Die EE-Version ist als Appliance (Software + Hardware) verfügbar
   
-Bei Interesse an der EE-Version bitte Kontakt zu Ondics: https://www.ondics.de/unternehmen/kontakt-and-anfahrt
+Bei Interesse an der EE-Version nehmen Sie bitte Kontakt zu Ondics auf: https://www.ondics.de/unternehmen/kontakt-and-anfahrt
 
 ## Lizenz, Haftungsausschluss und Autor
 
